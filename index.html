@@ -77,39 +77,72 @@
             }
         }
         function selectCheck_1() {
+            if(check_all.checked){
+                if(!check_1.checked){
+                    check_2.checked = "checked";
+                    check_3.checked = "checked";
+                    check_4.checked = "checked";
+                }
+            }
+            if(check_1.checked){
+                check_2.checked = "";
+                check_3.checked = "";
+                check_4.checked = "";
+            }
             if (!check_1.checked) {
                 check_all.checked = "";
             }
-            if ((check_1.checked) && (check_2.checked) && (check_3.checked) && (check_4.checked)) {
-                check_all.checked = "checked";
-
-            }
         }
         function selectCheck_2() {
+            if(check_all.checked){
+                if(!check_2.checked){
+                    check_1.checked = "checked";
+                    check_3.checked = "checked";
+                    check_4.checked = "checked";
+                }
+            }
+            if(check_2.checked){
+                check_1.checked = "";
+                check_3.checked = "";
+                check_4.checked = "";
+            }
+
             if (!check_2.checked) {
                 check_all.checked = "";
             }
-            if ((check_1.checked) && (check_2.checked) && (check_3.checked) && (check_4.checked)) {
-                check_all.checked = "checked";
-
-            }
         }
         function selectCheck_3() {
+            if(check_all.checked){
+                if(!check_3.checked){
+                    check_1.checked = "checked";
+                    check_2.checked = "checked";
+                    check_4.checked = "checked";
+                }
+            }
+            if(check_3.checked){
+                check_1.checked = "";
+                check_2.checked = "";
+                check_4.checked = "";
+            }
             if (!check_3.checked) {
                 check_all.checked = "";
             }
-            if ((check_1.checked) && (check_2.checked) && (check_3.checked) && (check_4.checked)) {
-                check_all.checked = "checked";
-
-            }
         }
         function selectCheck_4() {
+            if(check_all.checked){
+                if(!check_4.checked){
+                    check_1.checked = "checked";
+                    check_2.checked = "checked";
+                    check_3.checked = "checked";
+                }
+            }
+            if(check_4.checked){
+                check_1.checked = "";
+                check_2.checked = "";
+                check_3.checked = "";
+            }
             if (!check_4.checked) {
                 check_all.checked = "";
-            }
-            if ((check_1.checked) && (check_2.checked) && (check_3.checked) && (check_4.checked)) {
-                check_all.checked = "checked";
-
             }
         }
 
